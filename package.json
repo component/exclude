@@ -1,0 +1,27 @@
+{
+  "name": "exclude",
+  "description": "remove values in an array",
+  "version": "1.0.0",
+  "author": {
+    "name": "Jonathan Ong",
+    "email": "me@jongleberry.com",
+    "url": "http://jongleberry.com",
+    "twitter": "https://twitter.com/jongleberry"
+  },
+  "keywords": [
+    "array",
+    "exclude"
+  ],
+  "license": "MIT",
+  "repository": "component/exclude",
+  "dependencies": {
+    "array-flatten": "*"
+  },
+  "devDependencies": {
+    "mocha": "1",
+    "should": "3"
+  },
+  "scripts": {
+    "test": "mocha --require should --reporter spec --bail"
+  }
+}
